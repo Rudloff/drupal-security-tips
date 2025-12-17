@@ -39,12 +39,12 @@ this method allows data attributes).
 The solution depends on what the data attributes
 is supposed to contain:
 
-* Plain text : sanitize it with `Drupal.checkPlain()`
+* Plain text: sanitize it with `Drupal.checkPlain()`
   or insert it in a way that does not interpret HTML
   ([`innerText`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
   or [`.text()`](https://api.jquery.com/text/))
-* HTML : sanitize it with a library like [DOMPurify](https://github.com/cure53/DOMPurify)
-* URL : make sure it starts with `http:` or `https:`
+* HTML: sanitize it with a library like [DOMPurify](https://github.com/cure53/DOMPurify)
+* URL: make sure it starts with `http:` or `https:`
   (to avoid dangerous URLs like `javascript:alert()`)
 
 ## JS libraries don't always sanitize inputs
