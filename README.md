@@ -24,6 +24,12 @@ and patches.
 If you find a security issue in a Drupal module you should
 [report it to the security team](https://www.drupal.org/docs/develop/issues/issue-procedures-and-etiquette/reporting-a-security-issue).
 
+## Related core issues
+
+[This page](./Core%20Issues.md) contains a list
+of core issues that would prevent some of these
+security problems.
+
 ## Contributing
 
 Instead of contributing to this repository,
